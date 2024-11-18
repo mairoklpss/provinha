@@ -4,6 +4,12 @@ import time
 #Junção do Streamlit com CSS
 with open("inicio.css") as editor:
     st.markdown(f"<style>{editor.read()}</style>",unsafe_allow_html=True)
+st.markdown:
+    
+
+
+
+
 
 def tela_inicial():
     st.title("Bem-Vindo ao *Vitally*!")
